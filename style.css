@@ -29,10 +29,8 @@ border-bottom:1px solid rgba(244,114,182,0.15);
 font-size:24px;
 font-weight:bold;
 color:#f472b6;
-letter-spacing:1px;
 }
 
-/* NAV LINKS */
 nav ul{
 display:flex;
 list-style:none;
@@ -65,7 +63,7 @@ nav a:hover::after{
 width:100%;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero{
 min-height:90vh;
 display:flex;
@@ -128,7 +126,7 @@ color:#f472b6;
 margin-bottom:40px;
 }
 
-/* SKILLS / PROJECTS / EDUCATION CARDS */
+/* CARDS */
 .skills,.projects{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -146,11 +144,6 @@ transition:0.3s;
 .skill:hover,.card:hover,.education-box:hover{
 transform:translateY(-10px);
 box-shadow:0 10px 25px rgba(244,114,182,0.25);
-}
-
-/* PROJECT TITLE COLOR */
-.card h3{
-color:#f472b6;
 }
 
 /* CONTACT */
@@ -172,7 +165,7 @@ margin-top:40px;
 color:#94a3b8;
 }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE */
 @media(max-width:768px){
 .hero h1{
 font-size:40px;
