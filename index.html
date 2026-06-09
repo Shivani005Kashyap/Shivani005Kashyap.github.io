@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivani | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#111827;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+max-width:700px;
+margin:20px auto;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+font-weight:bold;
+border-radius:30px;
+text-decoration:none;
+margin-top:15px;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#38bdf8;
+}
+
+.about{
+text-align:center;
+max-width:900px;
+margin:auto;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+text-align:center;
+border-radius:10px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+}
+
+.card h3{
+color:#38bdf8;
+margin-bottom:10px;
+}
+
+.education-box{
+background:#1e293b;
+padding:25px;
+margin-bottom:20px;
+border-radius:15px;
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+background:#111827;
+padding:20px;
+text-align:center;
+margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">Shivani</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<h1>Hi, I'm <span>Shivani</span></h1>
+
+<h2>MCA Student | AI & ML Enthusiast</h2>
+
+<p>
+Passionate MCA student specializing in Artificial Intelligence and Machine Learning
+with a strong foundation in programming, data analysis, and problem solving.
+Seeking internship and entry-level opportunities.
+</p>
+
+<a href="#" class="btn">Download Resume</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<p>
+I am currently pursuing MCA with specialization in Artificial Intelligence and
+Machine Learning. I have a strong interest in Data Analytics, AI, NLP, and
+Machine Learning applications. I enjoy solving problems through technology and
+building projects that create real-world impact.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">C</div>
+<div class="skill">C++</div>
+<div class="skill">SQL</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">NLP</div>
+<div class="skill">Data Analysis</div>
+<div class="skill">Data Structures</div>
+<div class="skill">Excel</div>
+<div class="skill">SQL Server</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>AI Chatbot Using NLP</h3>
+
+<p>
+Developed an AI-powered chatbot for Frequently Asked Questions using Natural
+Language Processing techniques. Implemented text preprocessing, keyword
+matching, and automated response generation.
+</p>
+
+<p><strong>Tech Stack:</strong> Python, NLP</p>
+
+</div>
+
+<div class="card">
+
+<h3>Employee Performance Analysis System</h3>
+
+<p>
+Built a data-driven employee performance analysis system to evaluate attendance,
+targets, ratings, and KPIs. Generated performance insights using Python and Excel.
+</p>
+
+<p><strong>Tech Stack:</strong> Python, Excel, Data Analysis</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2 class="section-title">Education</h2>
+
+<div class="education-box">
+
+<h3>MCA (AI & ML)</h3>
+
+<p>Lovely Professional University</p>
+
+<p>CGPA: 7.67</p>
+
+<p>Expected Graduation: July 2027</p>
+
+</div>
+
+<div class="education-box">
+
+<h3>Bachelor of Computer Applications</h3>
+
+<p>Dr. K.N. Modi Institute of Engineering & Technology</p>
+
+<p>CGPA: 8.53</p>
+
+<p>Graduated: August 2025</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<p>📧 shivani26kashyap2005@gmail.com</p>
+
+<p>📱 6395166850</p>
+
+<p>📍 Modinagar, Uttar Pradesh</p>
+
+<br>
+
+<p>Add your LinkedIn and GitHub links here.</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Shivani | AI & ML Portfolio</p>
+
+</footer>
+
+</body>
+</html>
