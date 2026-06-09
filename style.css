@@ -8,6 +8,7 @@ font-family:'Segoe UI',sans-serif;
 body{
 background: radial-gradient(circle at top,#0b0f1a,#05010a);
 color:#f1f5f9;
+line-height:1.6;
 }
 
 /* NAVBAR */
@@ -20,6 +21,7 @@ background:rgba(15,10,30,0.6);
 backdrop-filter:blur(12px);
 position:sticky;
 top:0;
+z-index:1000;
 border-bottom:1px solid rgba(244,114,182,0.15);
 }
 
@@ -27,8 +29,10 @@ border-bottom:1px solid rgba(244,114,182,0.15);
 font-size:24px;
 font-weight:bold;
 color:#f472b6;
+letter-spacing:1px;
 }
 
+/* NAV LINKS */
 nav ul{
 display:flex;
 list-style:none;
@@ -61,7 +65,7 @@ nav a:hover::after{
 width:100%;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero{
 min-height:90vh;
 display:flex;
@@ -83,8 +87,8 @@ color:#f472b6;
 .hero h2{
 margin-top:10px;
 color:#a78bfa;
-min-height:30px;
 font-weight:400;
+min-height:30px;
 }
 
 .hero p{
@@ -96,6 +100,7 @@ color:#cbd5e1;
 
 /* BUTTON */
 .btn{
+display:inline-block;
 padding:12px 28px;
 background:linear-gradient(135deg,#f472b6,#a855f7);
 color:white;
@@ -123,7 +128,7 @@ color:#f472b6;
 margin-bottom:40px;
 }
 
-/* CARDS */
+/* SKILLS / PROJECTS / EDUCATION CARDS */
 .skills,.projects{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -143,6 +148,7 @@ transform:translateY(-10px);
 box-shadow:0 10px 25px rgba(244,114,182,0.25);
 }
 
+/* PROJECT TITLE COLOR */
 .card h3{
 color:#f472b6;
 }
@@ -163,9 +169,10 @@ text-align:center;
 padding:20px;
 border-top:1px solid rgba(244,114,182,0.1);
 margin-top:40px;
+color:#94a3b8;
 }
 
-/* MOBILE */
+/* MOBILE RESPONSIVE */
 @media(max-width:768px){
 .hero h1{
 font-size:40px;
