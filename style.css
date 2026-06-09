@@ -6,8 +6,8 @@ font-family:'Segoe UI',sans-serif;
 }
 
 body{
-background: radial-gradient(circle at top,#0f172a,#020617);
-color:#e2e8f0;
+background: radial-gradient(circle at top,#0b0f1a,#05010a);
+color:#f1f5f9;
 }
 
 /* NAVBAR */
@@ -16,18 +16,17 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:18px 10%;
-background:rgba(15,23,42,0.7);
+background:rgba(15,10,30,0.6);
 backdrop-filter:blur(12px);
 position:sticky;
 top:0;
-border-bottom:1px solid rgba(255,255,255,0.08);
+border-bottom:1px solid rgba(244,114,182,0.15);
 }
 
 .logo{
 font-size:24px;
 font-weight:bold;
-color:#60a5fa;
-letter-spacing:1px;
+color:#f472b6;
 }
 
 nav ul{
@@ -39,12 +38,12 @@ gap:22px;
 nav a{
 color:#cbd5e1;
 text-decoration:none;
-transition:0.3s;
 position:relative;
+transition:0.3s;
 }
 
 nav a:hover{
-color:#60a5fa;
+color:#f472b6;
 }
 
 nav a::after{
@@ -54,7 +53,7 @@ left:0;
 bottom:-4px;
 width:0%;
 height:2px;
-background:#60a5fa;
+background:#f472b6;
 transition:0.3s;
 }
 
@@ -75,44 +74,41 @@ padding:20px;
 
 .hero h1{
 font-size:64px;
-color:#f8fafc;
 }
 
 .hero span{
-color:#60a5fa;
+color:#f472b6;
 }
 
 .hero h2{
 margin-top:10px;
-color:#94a3b8;
-font-weight:400;
+color:#a78bfa;
 min-height:30px;
+font-weight:400;
 }
 
 .hero p{
 max-width:700px;
 margin:20px auto;
 font-size:18px;
-color:#94a3b8;
+color:#cbd5e1;
 }
 
 /* BUTTON */
 .btn{
-margin-top:15px;
 padding:12px 28px;
-background:linear-gradient(135deg,#60a5fa,#3b82f6);
+background:linear-gradient(135deg,#f472b6,#a855f7);
 color:white;
-border:none;
 border-radius:30px;
 text-decoration:none;
 font-weight:bold;
 transition:0.3s;
-box-shadow:0 0 15px rgba(96,165,250,0.3);
+box-shadow:0 0 18px rgba(244,114,182,0.3);
 }
 
 .btn:hover{
 transform:scale(1.08);
-box-shadow:0 0 25px rgba(96,165,250,0.6);
+box-shadow:0 0 30px rgba(244,114,182,0.6);
 }
 
 /* SECTIONS */
@@ -123,7 +119,7 @@ padding:90px 10%;
 .section-title{
 text-align:center;
 font-size:42px;
-color:#60a5fa;
+color:#f472b6;
 margin-bottom:40px;
 }
 
@@ -135,8 +131,8 @@ gap:20px;
 }
 
 .skill,.card,.education-box{
-background:rgba(30,41,59,0.6);
-border:1px solid rgba(255,255,255,0.06);
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(244,114,182,0.2);
 padding:22px;
 border-radius:16px;
 transition:0.3s;
@@ -144,21 +140,20 @@ transition:0.3s;
 
 .skill:hover,.card:hover,.education-box:hover{
 transform:translateY(-10px);
-box-shadow:0 10px 25px rgba(96,165,250,0.2);
+box-shadow:0 10px 25px rgba(244,114,182,0.25);
 }
 
 .card h3{
-color:#60a5fa;
+color:#f472b6;
 }
 
 /* CONTACT */
 .contact{
 text-align:center;
-color:#cbd5e1;
 }
 
 .contact a{
-color:#60a5fa;
+color:#f472b6;
 text-decoration:none;
 }
 
@@ -166,15 +161,14 @@ text-decoration:none;
 footer{
 text-align:center;
 padding:20px;
-background:#0f172a;
-border-top:1px solid rgba(255,255,255,0.05);
+border-top:1px solid rgba(244,114,182,0.1);
 margin-top:40px;
 }
 
 /* MOBILE */
 @media(max-width:768px){
 .hero h1{
-font-size:38px;
+font-size:40px;
 }
 
 nav ul{
