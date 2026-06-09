@@ -179,5 +179,22 @@ font-size:40px;
 nav ul{
 flex-direction:column;
 gap:10px;
+
+/* INITIAL STATE FOR ANIMATION */
+.card, .skill, .education-box{
+opacity:0;
+transform:translateY(30px);
+transition:0.6s ease;
+}
+
+/* HERO TYPING CURSOR */
+#typing::after{
+content:" |";
+animation:blink 0.8s infinite;
+}
+
+@keyframes blink{
+50%{opacity:0;}
+}
 }
 }
