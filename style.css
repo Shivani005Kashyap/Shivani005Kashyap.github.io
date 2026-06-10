@@ -196,3 +196,16 @@ flex-wrap:wrap;
 justify-content:center;
 }
 }
+.education-box p{
+color:#cbd5e1;
+font-size:1.05rem;
+}
+
+.education-box{
+max-width:1000px;
+margin:auto;
+}
+
+.hero p{
+max-width:800px;
+}
