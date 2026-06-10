@@ -244,3 +244,31 @@ display:flex;
 flex-direction:column;
 justify-content:flex-start;
 }
+
+.education-box h3{
+color:#f472b6;
+margin-bottom:15px;
+}
+
+.education-box p{
+margin-bottom:10px;
+}
+
+.education-box strong{
+color:#c084fc;
+}
+
+.education-box a{
+color:#f472b6;
+text-decoration:none;
+font-weight:600;
+}
+
+.education-box a:hover{
+color:#c084fc;
+}
+
+.contact-btn{
+display:inline-block;
+margin-top:15px;
+}
