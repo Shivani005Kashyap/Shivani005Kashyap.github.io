@@ -209,3 +209,17 @@ margin:auto;
 .hero p{
 max-width:800px;
 }
+
+/* Skills Page Enhancement */
+
+.skill{
+font-weight:600;
+font-size:1rem;
+text-align:center;
+cursor:pointer;
+}
+
+.skill:hover{
+transform:translateY(-8px) scale(1.05);
+background:rgba(244,114,182,0.15);
+}
