@@ -244,6 +244,7 @@ justify-content: center;
 
 .contact-resume-btn {
 background: linear-gradient(135deg, #22c55e, #16a34a);
+color: white;
 }
 
 .contact-resume-btn:hover {
